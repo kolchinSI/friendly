@@ -33,3 +33,7 @@ inc = incrementer()
 print(next(inc))
 print(next(inc))
 print(next(inc))
+
+lst1=[1,1,2,5,8,7,46,5]
+lst2=[8,7]
+print([x * y for x in lst1 for y in lst2])
